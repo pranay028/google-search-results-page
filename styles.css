@@ -182,6 +182,11 @@
 .line {
   margin: -0.3rem 0;
 }
+.line div:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
 .footer {
   width: 100%;
   height: 5rem;
@@ -194,7 +199,12 @@
   position: absolute;
   bottom: 0.5rem;
 }
-.terms span {
+.foot-text {
   margin-right: 1rem;
   font-size: 0.9rem;
+  cursor: pointer;
+}
+.foot-text:hover {
+  text-decoration: underline;
+  font-weight: 500;
 }
